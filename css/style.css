@@ -109,19 +109,27 @@ header .logo {
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
 }
-.contacts li a:hover,
+.link li a,
+.links li a,
+.contacts li a,
+.contact li a:hover,
+.contact li a:focus,
 .contacts li a:focus,
-.links li a:hover,
-.links li a:focus {
+.links li a:focus,
+.link:focus {
     color: var(--act-color);
 }
 .links li:last-child {
     margin-right: 0px;
 }
-.contacts li a {
+.contacts li a 
+.contact{
     margin: 0 0 0 50px;
     color: var(--sec-color);
 }
+.svg {
+    margin-right: 10px;
+  }
 
 /*section hero  */
 
