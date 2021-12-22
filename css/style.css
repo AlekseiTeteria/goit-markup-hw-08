@@ -10,6 +10,7 @@
     --main-color-wit: #fff;
     --background-portfolio: #e5e5e5;
     --footer-adress: rgba(255, 255, 255, 0.6);
+    --bg-team: #f5f4fa;
 }
 
 body {
@@ -205,6 +206,17 @@ header .logo {
 .future-list .item {
     width: 270px;
 }
+.btn-item {
+    width: 270px;
+    height: 120px;
+    padding: 0;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: var(--bg-team);
+  }
 /*doing  */
 .section-title {
     color: var(--main-color);
