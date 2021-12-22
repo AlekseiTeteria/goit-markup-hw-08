@@ -161,7 +161,15 @@ header .logo {
 /*Main section 1  */
 
 .hide {
-    visibility: hidden;}
+    visibility: hidden;
+    margin: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+    margin-top: -1px;
+}
+    
 
 .section-subtitle {
     text-align: center;
@@ -233,6 +241,10 @@ header .logo {
 }
 .out-team-list .item {
     background-color: white;
+    border-radius: 0px 0px 4px 4px ;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+                0px 1px 1px rgba(0, 0, 0, 0.14), 
+                0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .out-team-list {
     display: flex;
