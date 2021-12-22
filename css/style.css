@@ -131,7 +131,8 @@ header .logo {
 /*section hero  */
 
 .hero {
-    background: var(--back-craund-color);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.3)),
+    url(../images/general-photo.jpg);
     text-align: center;
     padding: 200px 0;
  
