@@ -103,17 +103,19 @@ header .logo {
     color: var(--main-color);
     font-family: 'roboto';
     margin-right: 50px;
-    display: inline-block;
+    display: flex;
     padding: 30.5px 0;
     font-weight: 500;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
 }
 .contacts li a:hover,
-.contacts li a:focus,
 .links li a:hover,
-.links li a:focus {
+.contacts li a:focus,
+.links li a:focus
+{
     color: var(--act-color);
+    fill: var(--act-color);
 }
 .links li:last-child {
     margin-right: 0px;
@@ -121,6 +123,9 @@ header .logo {
 .contacts li a {
     margin: 0 0 0 50px;
     color: var(--sec-color);
+}
+.svg {
+    margin-right: 10px;
 }
 
 /*section hero  */
