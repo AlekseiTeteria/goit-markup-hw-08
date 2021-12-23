@@ -105,6 +105,7 @@ header .logo {
     font-family: 'roboto';
     margin-right: 50px;
     display: flex;
+    align-items: center;
     padding: 30.5px 0;
     font-weight: 500;
     line-height: calc(16 / 14);
@@ -305,6 +306,7 @@ header .logo {
     align-items: center;
     border-radius: 50%;
     fill: #afb1b8;
+    margin-top: 16px;
   }
 
  .soc-icon:focus,
@@ -433,6 +435,10 @@ header .logo {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
+  }
+  .portfolio-image:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
   }
   .portfolio-image {
     margin: 15px;
