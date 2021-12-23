@@ -403,7 +403,31 @@ header .logo {
     color: var(--main-color-wit);
     margin-left: 70px;
   }
+/*portfolio-button*/
 
+.button-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.btn {
+  padding: 8px 22px;
+  border-style: none;
+  border-radius: 4px;
+  color: var(--main-color-black);
+  background-color: var(--back-graund-second);
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.button-item:not(:first-child) {
+  margin-left: 8px;
+}
+.btn:hover,
+.btn:focus {
+  color: var(--primary-backgraund-color);
+  background-color: var(--act-color);
+}
   /*portfolio-general*/
   .portfolio {
     display: flex;
