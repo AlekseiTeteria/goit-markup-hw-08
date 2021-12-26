@@ -284,6 +284,7 @@ header .logo {
     line-height: calc(19 / 16);
     text-align: center;
 }
+
 .social {
     display: flex;
     justify-content: center;
