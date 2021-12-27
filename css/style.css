@@ -57,7 +57,7 @@ ul {
     padding: 0;
   }
 nav,
-.links,
+.site-nav,
 .contacts,
 .link,
 header .container {
@@ -98,27 +98,48 @@ header .logo {
     margin-right: 5px;
 }
 .contacts li a,
-.links li a {
-    color: var(--main-color);
+.site-nav li a,
+.links {
+    color: var(--main-color-black);
     font-family: 'roboto';
     margin-right: 50px;
-    display: flex;
+    display: inline-block;
     align-items: center;
     padding: 30.5px 0;
     font-weight: 500;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
+    cursor: pointer;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .contacts li a:hover,
-.links li a:hover,
-.contacts li a:focus,
-.links li a:focus
+.contacts li a:focus
 {
     color: var(--act-color);
     fill: var(--act-color);
 }
-.links li:last-child {
+.site-nav li:last-child {
     margin-right: 0px;
+}
+.site-nav .links:hover,
+.site-nav .links:focus,
+.site-nav .links:hover::after {
+  color: var(--act-color);
+  opacity: 1;
+}
+.site-nav .links::after {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  bottom: -4px;
+  transform: translateX(-100%);
+  border-radius: 2px;
+  background-color: var(--act-color);
+  opacity: 0;
 }
 .contacts li a {
     margin: 0 0 0 50px;
