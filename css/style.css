@@ -324,17 +324,20 @@ header .logo {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    fill: #fff;
+    fill: #afb1b8;
+    transition-property: background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     margin-top: 16px;
   }
-
- .soc-icon:focus,
- .soc-icon:hover,
- .btn-soc:focus,
- .btn-soc:hover {
-    background: var(--act-color);
-    fill: var(--main-color-wit);
-}
+  .soc-icon:focus,
+  .soc-icon:hover,
+  .btn-soc:focus,
+  .btn-soc:hover {
+     background: var(--act-color);
+     fill: var(--main-color-wit);
+ }
+ 
 .connect {
   background: rgba(255, 255, 255, 0.1);
  }
