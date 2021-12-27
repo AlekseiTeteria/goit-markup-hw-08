@@ -97,14 +97,13 @@ header .logo {
     display: inline-block;
     margin-right: 5px;
 }
-.contacts li a,
+
 .site-nav li a,
 .links {
     color: var(--main-color-black);
     font-family: 'roboto';
     margin-right: 50px;
     display: inline-block;
-    align-items: center;
     padding: 30.5px 0;
     font-weight: 500;
     line-height: calc(16 / 14);
