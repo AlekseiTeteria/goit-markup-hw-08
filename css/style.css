@@ -494,7 +494,6 @@ header .logo {
   }
   .portfolio-image {
     margin: 15px;
-    border: 1px solid #EEEEEE;
   }
   .portfolio-title {
     color: var(--main-color-black);
