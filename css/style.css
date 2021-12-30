@@ -20,6 +20,9 @@ body {
     letter-spacing: 0.03em;
     line-height: 1.46;
 }
+html {
+  box-sizing: border-box;
+}
 .section {
 
     padding: 94px 0;
@@ -501,8 +504,7 @@ header .logo {
     font-size: 18px;
     line-height: calc(36 / 18);
     letter-spacing: 0.06em;
-    margin-top: 20px;
-    padding-left: 24px;
+
   }
   .portfolio-text {
     margin-top: 4px;
@@ -510,16 +512,13 @@ header .logo {
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
-    margin-bottom: 20px;
-    padding-left: 24px;
+
   }
   .portfolio-name {
-    position: absolute;
-    width: 370px;
-    height: 294px;
-    top: 262px;
-    overflow: hidden;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 20px 24px;
+    border-left: 1px solid #eeeeee;
+    border-bottom:  1px solid #eeeeee;
+    border-right:  1px solid #eeeeee;
   }
   .wrapper {
     position: relative;
