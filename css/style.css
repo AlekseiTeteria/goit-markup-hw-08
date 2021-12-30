@@ -547,7 +547,7 @@ header .logo {
   
 }
 .test:hover .over,
-.test:hover .over {
+.test:focus .over {
     transform: translateY(0);
 }
   /*.portfolio-name::before {
