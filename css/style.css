@@ -544,10 +544,10 @@ header .logo {
 
 .portfolio-image {
     position: relative;
-    z-index: 100;
+  
 }
-.portfolio-image:hover .wrapper .over,
-.portfolio-image:focus .wrapper .over {
+.test:hover .over,
+.test:hover .over {
     transform: translateY(0);
 }
   /*.portfolio-name::before {
