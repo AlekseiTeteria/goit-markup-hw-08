@@ -498,6 +498,7 @@ header .logo {
   }
   .portfolio-image {
     margin: 15px;
+  
   }
   .portfolio-title {
     color: var(--main-color-black);
@@ -520,6 +521,7 @@ header .logo {
     border-left: 1px solid #eeeeee;
     border-bottom:  1px solid #eeeeee;
     border-right:  1px solid #eeeeee;
+   
   }
   .wrapper {
     position: relative;
