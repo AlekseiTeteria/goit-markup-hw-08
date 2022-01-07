@@ -11,6 +11,7 @@
     --background-portfolio: #e5e5e5;
     --footer-adress: rgba(255, 255, 255, 0.6);
     --bg-team: #f5f4fa;
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -698,10 +699,9 @@ header .logo {
   }
   .close-modal:focus .close-modal-button,
   .close-modal:hover .close-modal-button {
-    fill: var(--active-color);
+    fill: var(--act-color)
   }
   
-  /* Форма модалки */
   .form--modal {
     width: 448px;
     min-height: 581px;
@@ -795,7 +795,6 @@ header .logo {
     position: absolute;
     top: 50%;
     left: 15px;
-    /* transform: translateY(-50%); */
   }
   
   .form--icon-check {
