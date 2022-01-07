@@ -723,6 +723,7 @@ header .logo {
     color: var(--main-color);
     margin-bottom: 12px;
   }
+ 
   
   .form--modal-box {
     display: flex;
