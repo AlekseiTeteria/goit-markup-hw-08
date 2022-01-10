@@ -714,17 +714,15 @@ header .logo {
     padding-bottom: 40px;
   }
   
-  legend {
+  .form-title {
     font-weight: bold;
     font-size: 20px;
-    line-height: 1.15;
+    line-height: calc(23 / 20);
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-color);
     margin-bottom: 12px;
   }
  
-  
   .form--modal-box {
     display: flex;
     flex-direction: column;
