@@ -10,14 +10,14 @@ header .logo {
     @include font (bold, 26px, 1.19, 0.03em, #2196f3);
 }
 .logo-color-black {
-    color: $maincolorblack;
+    color: $MainColorBlack;
     display: inline-block;
     margin-right: 5px;
 }
 
 .site-nav li a,
 .links {
-    color: $maincolorblack;
+    color: $MainColorBlack;
     font-family: 'roboto';
     margin-right: 50px;
     display: inline-block;
@@ -37,8 +37,8 @@ header .logo {
 .contacts li a:hover,
 .contacts li a:focus
 {
-    color: $actcolor;
-    fill: $actcolor;
+    color: $ActColor;
+    fill: $ActColor;
 }
 .site-nav li:last-child {
     margin-right: 0px;
@@ -46,7 +46,7 @@ header .logo {
 .site-nav .links:hover,
 .site-nav .links:focus,
 .site-nav .links:hover::after {
-  color: $actcolor;
+  color: $ActColor;
   opacity: 1;
 }
 .site-nav .links::after {
@@ -57,12 +57,12 @@ header .logo {
   bottom: -1px;
   transform: translateX(-100%);
   border-radius: 2px;
-  background-color: $actcolor;
+  background-color: $ActColor;
   opacity: 0;
 }
 .contacts li a {
     margin: 0 0 0 50px;
-    color: $seccolor;
+    color: $SecColor;
 }
 .svg {
     margin-right: 10px;
