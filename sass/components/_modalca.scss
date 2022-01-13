@@ -6,7 +6,7 @@
     top: 0px;
     background: rgba(0, 0, 0, 0.2);
     visibility: visible;
-    transition: opacity 250ms var(--timing-function), visibility 250ms var(--timing-function);
+    transition: opacity 250ms $timingfunction, visibility 250ms $timingfunction;
   }
   
   .backdrop.is-hidden {
@@ -24,7 +24,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) scale(1);
-    transition: transform 250ms var(--timing-function);
+    transition: transform 250ms $timingfunction;
   
     width: 528px;
     height: 581px;
@@ -54,11 +54,11 @@
     right: 9px;
     bottom: 10px;
     left: 10px;
-    transition: fill 250ms var(--timing-function);
+    transition: fill 250ms $timingfunction;
   }
   .close-modal:focus .close-modal-button,
   .close-modal:hover .close-modal-button {
-    fill: var(--act-color)
+    fill: $actcolor
   }
   
   .form--modal {
@@ -90,7 +90,7 @@
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
-    color: var(--sec-color);
+    color: $seccolor;
   }
   
   .check--modal-box {
@@ -101,7 +101,7 @@
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
-    color: var(--sec-color);
+    color: $seccolor;
   }
   
   .form--modal-box input {
@@ -114,7 +114,7 @@
   
   .form--modal-box:focus {
     outline: none;
-    border: 1px solid #2196f3;
+    border: 1px solid $actcolor;
   }
   
   .form-name {
@@ -136,7 +136,7 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     position: relative;
-    transition: border 250ms var(--timing-function);
+    transition: border 250ms $timingfunction;
   }
   
   .form-input:focus {
@@ -146,7 +146,7 @@
   
   .form-input:focus + .form--icon {
     fill: #2196f3;
-    transition: fill 250ms var(--timing-function);
+    transition: fill 250ms $timingfunction;
   }
   
   .form--icon {
@@ -167,7 +167,7 @@
     border-radius: 4px;
     min-height: 120px;
     margin-top: 4px;
-    transition: border 250ms var(--timing-function);
+    transition: border 250ms $timingfunction;
   }
   
   .form-texrarea:focus {
@@ -212,7 +212,7 @@
     margin-right: 10px;
     top: 12px;
     left: 12px;
-    transition: background-color 250ms var(--timing-function);
+    transition: background-color 250ms $timingfunction;
   }
   
   .policy-checkbox:checked + .policy-box-check {
@@ -238,7 +238,7 @@
     border-radius: 4px;
     font-weight: 700;
     cursor: pointer;
-    transition: box-shadow 250ms var(--timing-function), background-color 250ms var(--timing-function);
+    transition: box-shadow 250ms $timingfunction, background-color 250ms $timingfunction;
   }
   
   .form-submit-btn:hover {

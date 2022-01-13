@@ -1,5 +1,5 @@
 .out-team {
-    background: var(--back-graund-second);
+    background: $backgraundsecond;
     text-align: center;
     padding-top: 94px;
     padding-bottom: 94px;
@@ -26,7 +26,7 @@
     text-align: center;
 }
 .out-team .name {
-    color: var(--main-color);
+    color: $maincolorblack;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19 / 16);
@@ -35,7 +35,7 @@
     margin-top: 30px;
 }
 .out-team .profession {
-    color: var(--sec-color);
+    color: $seccolor;
     font-size: 16px;
     line-height: calc(19 / 16);
     text-align: center;
@@ -70,6 +70,6 @@
   .soc-icon:hover,
   .btn-soc:focus,
   .btn-soc:hover {
-     background: var(--act-color);
-     fill: var(--main-color-wit);
+     background: $actcolor;
+     fill: $maincolorwit;
  }

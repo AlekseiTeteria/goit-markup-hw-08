@@ -9,8 +9,8 @@
     padding: 8px 22px;
     border-style: none;
     border-radius: 4px;
-    color: var(--main-color-black);
-    background-color: var(--back-graund-second);
+    color: $maincolorblack;
+    background-color: $backgraundsecond;
     text-align: center;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -20,6 +20,6 @@
   }
   .btn:hover,
   .btn:focus {
-    color: var(--primary-backgraund-color);
-    background-color: var(--act-color);
+    color: $primarybackgraundcolor;
+    background-color: $actcolor;
   }

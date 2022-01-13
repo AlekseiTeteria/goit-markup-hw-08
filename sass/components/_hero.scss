@@ -16,12 +16,12 @@
 }
 .hero-button {
   padding: 10px 32px;
-  background: var(--act-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  margin: 0 auto;
-  display: block;
-  @include font (bold, 16px, 1.875, 0.06em, #fff)
+    background: $actcolor;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+    @include font (bold, 16px, 1.875, 0.06em, #fff)
 }
 .hero-button:focus,
 .hero-button:hover {

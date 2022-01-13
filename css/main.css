@@ -230,7 +230,7 @@ header .logo {
 
 .hero-button {
   padding: 10px 32px;
-  background: var(--act-color);
+  background: #2196f3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -263,7 +263,7 @@ header .logo {
 }
 
 .section-text {
-  color: var(--sec-color);
+  color: #757575;
   font-family: Roboto;
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -271,7 +271,7 @@ header .logo {
 }
 
 .section-titles {
-  color: var(--main-color);
+  color: #212121;
   font-family: Roboto;
   font-weight: bold;
   font-size: 14px;
@@ -309,11 +309,11 @@ header .logo {
       -ms-flex-align: center;
           align-items: center;
   border: none;
-  background: var(--bg-team);
+  background: #f5f4fa;
 }
 
 .section-title {
-  color: var(--main-color);
+  color: #212121;
   font-family: Roboto;
   font-weight: bold;
   font-size: 36px;
@@ -323,7 +323,7 @@ header .logo {
 }
 
 .doing {
-  background: var(--main-color);
+  background: #fff;
   text-align: center;
   padding-top: 0px;
   padding-bottom: 94px;
@@ -363,13 +363,13 @@ header .logo {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: var(--main-color-wit);
+  color: #fff;
   background: rgba(47, 48, 58, 0.8);
   text-transform: uppercase;
 }
 
 .out-team {
-  background: var(--back-graund-second);
+  background: #f5f4fa;
   text-align: center;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -401,7 +401,7 @@ header .logo {
 }
 
 .out-team .name {
-  color: var(--main-color);
+  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -411,7 +411,7 @@ header .logo {
 }
 
 .out-team .profession {
-  color: var(--sec-color);
+  color: #757575;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -465,8 +465,8 @@ header .logo {
 .soc-icon:hover,
 .btn-soc:focus,
 .btn-soc:hover {
-  background: var(--act-color);
-  fill: var(--main-color-wit);
+  background: #2196f3;
+  fill: #fff;
 }
 
 .clients {
@@ -525,12 +525,12 @@ header .logo {
 }
 
 .footer {
-  background: var(--back-craund-color);
+  background: #2f303a;
   padding: 60px 0px;
 }
 
 .footer-contact {
-  color: var(--main-color-wit);
+  color: #fff;
   font-size: 14px;
   line-height: calc(27 / 14);
   margin-top: 20px;
@@ -689,8 +689,8 @@ header .logo {
   padding: 8px 22px;
   border-style: none;
   border-radius: 4px;
-  color: var(--main-color-black);
-  background-color: var(--back-graund-second);
+  color: #212121;
+  background-color: #f5f4fa;
   text-align: center;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -702,8 +702,8 @@ header .logo {
 
 .btn:hover,
 .btn:focus {
-  color: var(--primary-backgraund-color);
-  background-color: var(--act-color);
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .portfolio {
@@ -726,7 +726,7 @@ header .logo {
 }
 
 .portfolio-title {
-  color: var(--main-color-black);
+  color: #212121;
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
@@ -735,7 +735,7 @@ header .logo {
 
 .portfolio-text {
   margin-top: 4px;
-  color: var(--sec-color);
+  color: #757575;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
@@ -760,12 +760,12 @@ header .logo {
   min-height: 100%;
   left: 0;
   top: 0;
-  background-color: var(--hover-color-button);
+  background-color: #188ce8;
   font-weight: normal;
   font-size: 18px;
   line-height: 156%;
   letter-spacing: 0.03em;
-  color: var(--primary-backgraund-color);
+  color: #ffffff;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -793,8 +793,8 @@ header .logo {
   top: 0px;
   background: rgba(0, 0, 0, 0.2);
   visibility: visible;
-  -webkit-transition: opacity 250ms var(--timing-function), visibility 250ms var(--timing-function);
-  transition: opacity 250ms var(--timing-function), visibility 250ms var(--timing-function);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -814,10 +814,10 @@ header .logo {
   top: 50%;
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
-  -webkit-transition: -webkit-transform 250ms var(--timing-function);
-  transition: -webkit-transform 250ms var(--timing-function);
-  transition: transform 250ms var(--timing-function);
-  transition: transform 250ms var(--timing-function), -webkit-transform 250ms var(--timing-function);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 528px;
   height: 581px;
   background: #ffffff;
@@ -845,13 +845,13 @@ header .logo {
   right: 9px;
   bottom: 10px;
   left: 10px;
-  -webkit-transition: fill 250ms var(--timing-function);
-  transition: fill 250ms var(--timing-function);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-modal:focus .close-modal-button,
 .close-modal:hover .close-modal-button {
-  fill: var(--act-color);
+  fill: #2196f3;
 }
 
 .form--modal {
@@ -892,7 +892,7 @@ header .logo {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: var(--sec-color);
+  color: #757575;
 }
 
 .check--modal-box {
@@ -908,7 +908,7 @@ header .logo {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: var(--sec-color);
+  color: #757575;
 }
 
 .form--modal-box input {
@@ -943,8 +943,8 @@ header .logo {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   position: relative;
-  -webkit-transition: border 250ms var(--timing-function);
-  transition: border 250ms var(--timing-function);
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus {
@@ -954,8 +954,8 @@ header .logo {
 
 .form-input:focus + .form--icon {
   fill: #2196f3;
-  -webkit-transition: fill 250ms var(--timing-function);
-  transition: fill 250ms var(--timing-function);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form--icon {
@@ -976,8 +976,8 @@ header .logo {
   border-radius: 4px;
   min-height: 120px;
   margin-top: 4px;
-  -webkit-transition: border 250ms var(--timing-function);
-  transition: border 250ms var(--timing-function);
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-texrarea:focus {
@@ -1026,8 +1026,8 @@ header .logo {
   margin-right: 10px;
   top: 12px;
   left: 12px;
-  -webkit-transition: background-color 250ms var(--timing-function);
-  transition: background-color 250ms var(--timing-function);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .policy-checkbox:checked + .policy-box-check {
@@ -1052,10 +1052,10 @@ header .logo {
   border-radius: 4px;
   font-weight: 700;
   cursor: pointer;
-  -webkit-transition: background-color 250ms var(--timing-function), -webkit-box-shadow 250ms var(--timing-function);
-  transition: background-color 250ms var(--timing-function), -webkit-box-shadow 250ms var(--timing-function);
-  transition: box-shadow 250ms var(--timing-function), background-color 250ms var(--timing-function);
-  transition: box-shadow 250ms var(--timing-function), background-color 250ms var(--timing-function), -webkit-box-shadow 250ms var(--timing-function);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-submit-btn:hover {
