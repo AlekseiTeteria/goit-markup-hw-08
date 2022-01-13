@@ -10,7 +10,7 @@
     border-style: none;
     border-radius: 4px;
     color: $maincolorblack;
-    background-color: $backgraundsecond;
+    background-color: $backgraundcolor;
     text-align: center;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -20,6 +20,6 @@
   }
   .btn:hover,
   .btn:focus {
-    color: $primarybackgraundcolor;
+    color: $maincolorwit;
     background-color: $actcolor;
   }

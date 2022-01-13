@@ -514,7 +514,7 @@ header .logo {
   padding: 0;
   border-radius: 4px;
   border: 1px solid #afb1b8;
-  background: var(--for-black-color);
+  background: #fff;
   fill: #afb1b8;
 }
 
