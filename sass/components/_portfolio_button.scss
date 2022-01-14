@@ -1,4 +1,5 @@
 .button-list {
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -23,3 +24,29 @@
   color: var(--primary-backgraund-color);
   background-color: var(--act-color);
 }
+=======
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .btn {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 22px;
+    border-style: none;
+    border-radius: 4px;
+    color: var(--main-color-black);
+    background-color: var(--back-graund-second);
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  .button-item:not(:first-child) {
+    margin-left: 8px;
+  }
+  .btn:hover,
+  .btn:focus {
+    color: $maincolorwit;
+    background-color: $actcolor;
+  }
+>>>>>>> 412dc94138cae88e53ccacb008b9f8f3dfe8e850

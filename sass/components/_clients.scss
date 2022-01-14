@@ -23,7 +23,12 @@
     justify-content: center;
     align-items: center;
     border: 1px solid #afb1b8;
+<<<<<<< HEAD
     @include fontsecond (170px, 92px, 0, 4px, $maincolorwit, #afb1b8)
+=======
+    background: $Blackgraund;
+    fill: #afb1b8;
+>>>>>>> 9ae18f1284132e2341096c96ab8b54771a4fb22f
   }
   .btn-client:focus,
   .btn-client:hover {
