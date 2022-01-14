@@ -3,10 +3,7 @@
   padding: 60px 0px;
 }
 .footer-contact {
-  color: $maincolorwit;
-  font-size: 14px;
-  line-height: calc(27 / 14);
-  margin-top: 20px;
+  @include footer_1 ( $maincolorwit, 14px, calc(27 / 14), 20px)
 }
 .address {
     font-style: normal;
@@ -31,48 +28,32 @@
   justify-content: flex-start;
 }
 .soc-title {
-  font-size: 14px;
-  line-height: 1.17;
-  margin-bottom: 20px;
+  @include footer_title (14px, 1.17, 20px)
 }
 .footer-social {
-  width: 206px;
-  height: 80px;
   display: flex;
   flex-direction: column;
-  margin-top: 15px;
   text-transform: uppercase;
-  color: $maincolorwit;
-  margin-left: 70px;
+  @include footer_soc ($maincolorwit, 206px, 80px, 15px,70px)
 }
 .connect {
   background: rgba(255, 255, 255, 0.1);
   fill: #fff;
 
  }
-
  .form-footer {
-  padding-top: 16px;
-  margin-left: 93px;
   position: relative;
+  @include ptml (16px, 93px)
 }
 .footer-input {
-  width: 358px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  font-size: 16px;
-  line-height: calc(20 / 16);
-  color: rgba(255, 255, 255, 0.6);
-  background: rgba(47, 48, 58, 1);
-  padding-left: 16px;
-  padding-top: 15px;
-  padding-bottom: 15px;
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  @include futer_input (rgba(255, 255, 255, 0.6), 358px, 4px, 16px, calc(20 / 16), rgba(47, 48, 58, 1),16px,15px, 15px )
 }
 
 .footer-input:hover,
@@ -86,27 +67,13 @@
 }
 
 .title-form-footer {
-  font-size: 14px;
-  line-height: 1.17;
   text-transform: uppercase;
-  color: #fff;
-  margin-bottom: 30px;
+  @include title_form_footer (#fff, 14px, 1.17, 15px)
 }
 .form-btn-footer {
-  font-weight: bold;
-  font-size: 16px;
-  line-height: calc(30 / 16);
-  letter-spacing: 0.06em;
-  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  color: #fff;
-  padding-left: 29px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 62px;
   cursor: pointer;
-  margin-left: 12px;
+  @include  form_btn_footer (#fff, bold, 16px, calc(30 / 16), 0.06em,  $actcolor,  4px, 29px, 10px, 10px, 62px, 12px)
 }
 .icon-subscribe {
   position: absolute;
