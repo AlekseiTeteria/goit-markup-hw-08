@@ -1,15 +1,26 @@
 .footer {
+<<<<<<< HEAD
   background: $backcraundcolor;
   padding: 60px 0px;
 }
 .footer-contact {
   @include footer_1 ( $maincolorwit, 14px, calc(27 / 14), 20px)
+=======
+  background: $back_craund_color;
+  padding: 60px 0px;
+}
+.footer-contact {
+  color: $main_color_wit;
+  font-size: 14px;
+  line-height: calc(27 / 14);
+  margin-top: 20px;
+>>>>>>> 9ae18f1284132e2341096c96ab8b54771a4fb22f
 }
 .address {
     font-style: normal;
 }
 .logo-footer {
-  color: $maincolorwit;
+  color: $main_color_wit;
 }
 .footer-contact:hover,
 .footer-contact:focus,
@@ -17,7 +28,7 @@
 .footer-contact .mailto:focus,
 .footer-contact .tel:hover,
 .footer-contact .tel:focus {
-  color: $actcolor;
+  color: $act_color;
 }
 .footer-contact .mailto,
 .footer-contact .tel {
@@ -34,7 +45,12 @@
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
+<<<<<<< HEAD
   @include footer_soc ($maincolorwit, 206px, 80px, 15px,70px)
+=======
+  color: $main_color_wit;
+  margin-left: 70px;
+>>>>>>> 9ae18f1284132e2341096c96ab8b54771a4fb22f
 }
 .connect {
   background: rgba(255, 255, 255, 0.1);
@@ -58,7 +74,7 @@
 
 .footer-input:hover,
 .footer-input:focus {
-  outline: 1px solid $actcolor;
+  outline: 1px solid $act-color;
   color: #e5e5e5;
   transition-property: outline, color;
   transition-duration: 250ms;
@@ -83,6 +99,6 @@
   cursor: pointer;
 }
 .cocntact-cond {
-  color: $actcolor;
+  color: $act-color;
   text-decoration: underline;
 }
