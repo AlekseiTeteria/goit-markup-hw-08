@@ -1,9 +1,18 @@
 .section-title {
-    @include section-title ($maincolorblack, "Roboto", bold, 36px, calc(42 / 36),center, 50px) 
+    color:  $maincolorblack;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .doing {
-    @include doing ( $maincolorwit, center,0px,  94px)
+    background: $maincolorwit;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 94px;
 }
 .doing .item + .item {
     margin-left: 30px;
@@ -18,5 +27,19 @@
 
 }
 .item-doing {
-  @include item-doing (absolute, 'roboto', Bold, 14px,  16px, 100%, 70px, 0, 0, center, $maincolorwit, rgba(47, 48, 58, 0.8), uppercase)
+  position: absolute;
+  font-family: 'roboto';
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 16px;
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $maincolorwit;
+  background: rgba(47, 48, 58, 0.8);
+  text-transform: uppercase;
 }

@@ -1,3 +1,9 @@
+%flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+
 @mixin font ($fw, $fs, $lh, $ls, $col: #212121) { 
    font-weight: $fw;
    font-size: $fs;

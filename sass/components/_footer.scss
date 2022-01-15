@@ -1,12 +1,12 @@
 .footer {
   background: $backcraundcolor;
   padding: 60px 0px;
-}
-.footer-contact {
-  color: $maincolorwit;
-  font-size: 14px;
-  line-height: calc(27 / 14);
-  margin-top: 20px;
+  &-contact {
+    color: $maincolorwit;
+    font-size: 14px;
+    line-height: calc(27 / 14);
+    margin-top: 20px;
+  }
 }
 .address {
     font-style: normal;

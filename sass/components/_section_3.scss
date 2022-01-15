@@ -1,5 +1,11 @@
 .out-team {
-    @include out-team ($backgraundcolor, center,94px, 94px)
+    background: $backgraundcolor;
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    &-list {
+        display: flex;
+    }
 }
 .out-team-list .item + .item {
     margin-left: 30px;
@@ -11,18 +17,28 @@
                 0px 1px 1px rgba(0, 0, 0, 0.14), 
                 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.out-team-list {
-    display: flex;
 
-}
 .out-team .title {
-    @include out-teamtitle ( 500px, 36px, calc(19 / 16), 50px, center)
+    font-weight: 500px;
+    font-size: 36px;
+    line-height: calc(19 / 16);
+    margin-bottom: 50px;
+    text-align: center;
 }
 .out-team .name {
-    @include out-team-name ($maincolorblack, 500, 16px, calc(19 / 16), center, 10px, 30px)
+    color: $maincolorblack;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 .out-team .profession {
-    @include out-team-profession ($seccolor, 16px, calc(19 / 16), center)
+    color: $seccolor;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
 }
 
 .social {
@@ -30,21 +46,26 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
+    &-link {
+        margin-right: 10px;
+      }
   }
-  .social-link {
-    margin-right: 10px;
-  }
+  
   .social-link:last-child {
     margin-right: 0;
   }
   .btn-soc {
+    width: 44px;
+    height: 44px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    fill: #afb1b8;
     transition-property: background-color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    @include btn-soc (44px, 44px, 50%, #afb1b8,  16px)
+    margin-top: 16px;
   }
   .soc-icon:focus,
   .soc-icon:hover,
