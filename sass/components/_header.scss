@@ -8,29 +8,23 @@ header .logo {
 .logo {
   font-family: 'Raleway', sans-serif;
   @include font (bold, 26px, 1.19, 0.03em, #2196f3);
-}
-.logo-color-black {
-  color: $maincolorblack;
-  display: inline-block;
-  margin-right: 5px;
+  &__black {
+    color: $maincolorblack;
+    display: inline-block;
+    margin-right: 5px;
+  }
 }
 
 .site-nav li a,
-.links {
-  color: $maincolorblack;
-  font-family: 'roboto';
-  margin-right: 50px;
+.site-nav__links {
   display: inline-block;
   align-items: center;
-  padding: 30.5px 0;
-  font-weight: 500;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
   cursor: pointer;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include links ($maincolorblack, 'roboto', 50px, 30.5px 0, 500, calc(16 / 14),  0.02em)
 }
-.links {
+.site-nav__links {
 display: flex;
 }
 
@@ -43,13 +37,13 @@ display: flex;
 .site-nav li:last-child {
   margin-right: 0px;
 }
-.site-nav .links:hover,
-.site-nav .links:focus,
-.site-nav .links:hover::after {
+.site-nav .site-nav__links:hover,
+.site-nav .site-nav__links:focus,
+.site-nav .site-nav__links:hover::after {
 color: $actcolor;
 opacity: 1;
 }
-.site-nav .links::after {
+.site-nav .site-nav__links::after {
 position: absolute;
 content: '';
 width: 100%;
@@ -64,7 +58,7 @@ opacity: 0;
   margin: 0 0 0 50px;
   color: $seccolor;
 }
-.svg {
+.contacts__svg {
   margin-right: 10px;
 }
 

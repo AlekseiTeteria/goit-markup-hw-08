@@ -87,7 +87,7 @@ address,
           flex-direction: column;
 }
 
-.btn-client, .clients {
+.client__customer, .clients {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -115,33 +115,32 @@ header .logo {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-
-.logo-color-black {
+.logo__black {
   color: #212121;
   display: inline-block;
   margin-right: 5px;
 }
 
 .site-nav li a,
-.links {
-  color: #212121;
-  font-family: "roboto";
-  margin-right: 50px;
+.site-nav__links {
   display: inline-block;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 30.5px 0;
-  font-weight: 500;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
   cursor: pointer;
   position: relative;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #212121;
+  font-family: "roboto";
+  margin-right: 50px;
+  padding: 30.5px 0;
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
 }
 
-.links {
+.site-nav__links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -157,14 +156,14 @@ header .logo {
   margin-right: 0px;
 }
 
-.site-nav .links:hover,
-.site-nav .links:focus,
-.site-nav .links:hover::after {
+.site-nav .site-nav__links:hover,
+.site-nav .site-nav__links:focus,
+.site-nav .site-nav__links:hover::after {
   color: #2196f3;
   opacity: 1;
 }
 
-.site-nav .links::after {
+.site-nav .site-nav__links::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -182,7 +181,7 @@ header .logo {
   color: #757575;
 }
 
-.svg {
+.contacts__svg {
   margin-right: 10px;
 }
 
@@ -466,8 +465,8 @@ header .logo {
   width: 170px;
   height: 92px;
 }
-
-.btn-client {
+.client__customer {
+  border: 1px solid #afb1b8;
   width: 170px;
   height: 92px;
   -webkit-box-align: center;
@@ -480,8 +479,8 @@ header .logo {
   fill: #afb1b8;
 }
 
-.btn-client:focus,
-.btn-client:hover {
+.client__customer:focus,
+.client__customer:hover {
   fill: #2196f3;
   border: 1px solid #2196f3;
 }

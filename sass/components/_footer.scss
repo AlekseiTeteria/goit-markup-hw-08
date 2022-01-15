@@ -77,7 +77,8 @@
 .form-btn-footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  @include  form_btn_footer (#fff, bold, 16px, calc(30 / 16), 0.06em,  $actcolor,  4px, 29px, 10px, 10px, 62px, 12px)
+  @include  form_btn_footer (#fff,  bold, 16px, calc(30 / 16), 0.06em, $actcolor, 4px,  29px, 10px, 10px, 62px, 12px)
+
 }
 .icon-subscribe {
   position: absolute;
