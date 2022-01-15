@@ -1,115 +1,70 @@
 
 /*header*/
 header .logo {
-    margin-right: 93px;
-    display: flex;
-    align-items: center;  
+  margin-right: 93px;
+  display: flex;
+  align-items: center;  
 }
 .logo {
-    font-family: 'Raleway', sans-serif;
-    @include font (bold, 26px, 1.19, 0.03em, #2196f3);
+  font-family: 'Raleway', sans-serif;
+  @include font (bold, 26px, 1.19, 0.03em, #2196f3);
 }
 .logo-color-black {
-    color: $maincolorblack;
-    display: inline-block;
-    margin-right: 5px;
+  color: $maincolorblack;
+  display: inline-block;
+  margin-right: 5px;
 }
 
 .site-nav li a,
 .links {
-    color: $maincolorblack;
-    font-family: 'roboto';
-    margin-right: 50px;
-    display: inline-block;
-    align-items: center;
-    padding: 30.5px 0;
-    font-weight: 500;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.02em;
-    cursor: pointer;
-    position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: $maincolorblack;
+  font-family: 'roboto';
+  margin-right: 50px;
+  display: inline-block;
+  align-items: center;
+  padding: 30.5px 0;
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .links {
-  display: flex;
+display: flex;
 }
 
 .contacts li a:hover,
 .contacts li a:focus
 {
-    color: $actcolor;
-    fill: $actcolor;
+  color: $actcolor;
+  fill: $actcolor;
 }
 .site-nav li:last-child {
-    margin-right: 0px;
+  margin-right: 0px;
 }
 .site-nav .links:hover,
 .site-nav .links:focus,
 .site-nav .links:hover::after {
-  color: $actcolor;
-  opacity: 1;
+color: $actcolor;
+opacity: 1;
 }
 .site-nav .links::after {
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 4px;
-  bottom: -1px;
-  transform: translateX(-100%);
-  border-radius: 2px;
-  background-color: $actcolor;
-  opacity: 0;
+position: absolute;
+content: '';
+width: 100%;
+height: 4px;
+bottom: -1px;
+transform: translateX(-100%);
+border-radius: 2px;
+background-color: $actcolor;
+opacity: 0;
 }
 .contacts li a {
-    margin: 0 0 0 50px;
-    color: $seccolor;
+  margin: 0 0 0 50px;
+  color: $seccolor;
 }
 .svg {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
-/*section hero  */
-
-
-/*Main section 1  */
-
-
-/*Section_2  */
-
-
-/*section_3  */
-
- 
-
-/*Clients*/
-
-/*footer*/
-
-/*portfolio-button*/
-
-
-  /*portfolio-general*/
-  
-  /*.portfolio-name::before {
-    position: absolute;
-    content: 'Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.';
-    width: 370px;
-    height: 294px;
-    bottom: -100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-left: 24px;
-    padding-right: 24px;
-    font-size: 18px;
-    line-height: 1.56;
-    letter-spacing: 0.03em;
-    color: #ffffff;
-    background-color: rgba(33, 150, 243, 0.9);
-  }
-  .portfolio-name:hover::before {
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transform: translateY(-100%);
-  }
-   /* modalca*/
-  

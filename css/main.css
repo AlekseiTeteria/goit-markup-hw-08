@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -178,36 +177,6 @@ header .logo {
   margin-right: 10px;
 }
 
-/*section hero  */
-/*Main section 1  */
-/*Section_2  */
-/*section_3  */
-/*Clients*/
-/*footer*/
-/*portfolio-button*/
-/*portfolio-general*/
-/*.portfolio-name::before {
-  position: absolute;
-  content: 'Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.';
-  width: 370px;
-  height: 294px;
-  bottom: -100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-left: 24px;
-  padding-right: 24px;
-  font-size: 18px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  background-color: rgba(33, 150, 243, 0.9);
-}
-.portfolio-name:hover::before {
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateY(-100%);
-}
- /* modalca*/
 .hero {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.5)), to(rgba(47, 48, 58, 0.3))), url(../images/general-photo.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.3)), url(../images/general-photo.jpg);
@@ -514,7 +483,7 @@ header .logo {
   padding: 0;
   border-radius: 4px;
   border: 1px solid #afb1b8;
-  background: #fff;
+  background: #2f303a;
   fill: #afb1b8;
 }
 
