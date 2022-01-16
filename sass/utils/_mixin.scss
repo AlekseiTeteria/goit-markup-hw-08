@@ -5,21 +5,6 @@
    letter-spacing: $ls;
    color: $col;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
-@mixin fontsecond ($fw, $fs, $lh, $ls){
-   font-weight: bold;
-   font-size: 16px;
-   line-height: calc(30 / 16);
-   letter-spacing: 0.06em;
-}
-<<<<<<< HEAD
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
-=======
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 @mixin fontsecond ($w, $h, $p, $br, $bkc, $f){
     width: $w;
     height: $h;
@@ -40,8 +25,6 @@
   margin-bottom: $mb;
 }
 @mixin footer_soc ($col, $w, $h, $mt, $ml){
-<<<<<<< HEAD
-<<<<<<< HEAD
    width: $w;
    height: $h;
    margin-top:  $mt;
@@ -83,62 +66,6 @@
    padding-right:  $pr;
    margin-left: $ml;
 }
-<<<<<<< Updated upstream
-=======
-
-=======
-=======
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
-width: 206px;
-height: 80px;
-margin-top: 15px;
-text-transform: uppercase;
-color: $maincolorwit;
-margin-left: 70px;
-}
-@mixin ptml ($pt, $ml){
-padding-top:$pt;
-margin-left: $ml;
-}
-@mixin futer_input ($col, $w, $br, $fs, $lh, $bg, $pl,$pt, $pb ) {
-   width: 358px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  font-size: 16px;
-  line-height: calc(20 / 16);
-  color: rgba(255, 255, 255, 0.6);
-  background: rgba(47, 48, 58, 1);
-  padding-left: 16px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-@mixin title_form_footer ($col, $fs, $lh, $mb) {
-   font-size: 14px;
-   line-height: 1.17;
-   color: #fff;
-   margin-bottom: 30px;
-}
-@mixin form_btn_footer ($col, $fw, $fs, $lh, $ls, $bg, $br, $pl, $pt, $pb, $pr, $ml){
-   font-weight: bold;
-   font-size: 16px;
-   line-height: calc(30 / 16);
-   letter-spacing: 0.06em;
-   background: #2196f3;
-   border-radius: 4px;
-   color: #fff;
-   padding-left: 29px;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   padding-right: 62px;
-   margin-left: 12px;
-}
-<<<<<<< HEAD
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
->>>>>>> Stashed changes
-=======
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 @mixin hero-title ($fw, $fs, $lh, $ls, $col: #212121, $mw, $mb) { 
    font-weight: $fw;
    font-size: $fs;
@@ -165,8 +92,6 @@ margin-left: $ml;
    border-radius:$br;
 }
 @mixin close-modal ($t,$r,$p,$w,$h,$br,$bg) {
-<<<<<<< HEAD
-<<<<<<< HEAD
    top: $t;
    right: $r;
    padding: $p;
@@ -174,20 +99,6 @@ margin-left: $ml;
    height: $h;
    background:  $bg;
    border-radius: $br;
-=======
-=======
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
-   top: 8px;
-   right: 8px;
-   padding: 0%;
-   width: 30px;
-   height: 30px;
-   background:  $maincolorwit;
-   border-radius: 50%;
-<<<<<<< HEAD
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
-=======
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
    
 }
 @mixin close-modal-button ($t,$r,$b,$l) {
@@ -314,27 +225,12 @@ margin-left: $ml;
    opacity:  $op; 
 }
 @mixin btn-item ($w, $h, $p, $mb, $b, $bgc, $ai) {
-<<<<<<< HEAD
-<<<<<<< HEAD
    width: $w;
    height: $h;
    padding:$p;
    margin-bottom:  $mb;
    border: $b;
    background: $bgc;
-=======
-=======
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
-   width: 270px;
-   height: 120px;
-   padding: 0;
-   margin-bottom: 30px;
-   border: none;
-   background: $backgraundcolor;
-<<<<<<< HEAD
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
-=======
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
    align-items:  $ai;
 }
 @mixin hide ($v, $m, $w, $h, $ov, $op, $mt) {
@@ -386,16 +282,6 @@ margin-left: $ml;
    height: $h;
    bottom: $b;
    left:$l;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-   display: flex;
-   justify-content: center;
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
-=======
-   display: flex;
-   justify-content: center;
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
    align-items:  $ai;
    color: $col;
    background: $bg;

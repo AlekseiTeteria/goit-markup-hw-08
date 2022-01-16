@@ -1,8 +1,12 @@
 .backdrop {
     position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.2);
     visibility: visible;
     transition: opacity 250ms $timingfunction, visibility 250ms $timingfunction;
-    @include  backdrop (100%, 100%,  0px,  0px, rgba(0, 0, 0, 0.2))
   }
   
   .backdrop.is-hidden {
@@ -17,119 +21,95 @@
   
   .modal {
     position: absolute;
+    left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms $timingfunction;
+  
+    width: 528px;
+    height: 581px;
+    background: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
-    @include modal (50%, 50%, 528px, 581px, 4px,  $maincolorwit)
+    border-radius: 4px;
   }
   
   .close-modal {
     position: absolute;
+    top: 8px;
+    right: 8px;
     cursor: pointer;
+    padding: 0%;
+  
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.1);
-<<<<<<< HEAD
-<<<<<<< HEAD
     border-radius: 50%;
-=======
-    @include close-modal (8px,8px,0%, 30px, 30px,50%,$maincolorwit)
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
-  }
-  
-<<<<<<< Updated upstream
-  .close-modal-button {
-    position: absolute;
-    transition: fill 250ms $timingfunction;
-    @include close-modal-button (9px,9px,10px,10px)
-  }
-=======
-=======
-    @include close-modal (8px,8px,0%, 30px, 30px,50%,$maincolorwit)
   }
   
   .close-modal-button {
     position: absolute;
+    top: 9px;
+    right: 9px;
+    bottom: 10px;
+    left: 10px;
     transition: fill 250ms $timingfunction;
-    @include close-modal-button (9px,9px,10px,10px)
   }
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
->>>>>>> Stashed changes
   .close-modal:focus .close-modal-button,
   .close-modal:hover .close-modal-button {
     fill: $actcolor
   }
   
   .form--modal {
+    width: 448px;
+    min-height: 581px;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-<<<<<<< HEAD
-<<<<<<< HEAD
     padding-top: 40px;
     padding-bottom: 40px;
-<<<<<<< Updated upstream
-=======
-    &-box {
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      margin-bottom: 10px;
-      font-size: 12px;
-      line-height: 1.16;
-      letter-spacing: 0.01em;
-      color: $seccolor;
-    }
-=======
-    @include form--modal (448px, 581px, auto, auto, 40px, 40px)
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
->>>>>>> Stashed changes
-=======
-    @include form--modal (448px, 581px, auto, auto, 40px, 40px)
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   }
   
   .form-title {
-    @include  form-title (bold, 20px, calc(23 / 20), center,0.03em, 12px)
+    font-weight: bold;
+    font-size: 20px;
+    line-height: calc(23 / 20);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 12px;
   }
  
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-  
-=======
->>>>>>> Stashed changes
   .form--modal-box {
     display: flex;
     flex-direction: column;
     position: relative;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
     margin-bottom: 10px;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
     color: $seccolor;
-=======
-    @include form--modal-box (10px,  12px,  1.16, 0.01em, $seccolor)
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   }
-=======
-    @include form--modal-box (10px,  12px,  1.16, 0.01em, $seccolor)
-  }
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
->>>>>>> Stashed changes
   
   .check--modal-box {
     position: relative;
     display: flex;
     flex-direction: column;
     position: relative;
-    @include check--modal-box (12px, 1.16, 0.01em, $seccolor)
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: $seccolor;
   }
   
   .form--modal-box input {
+    padding: 12px;
+    padding-left: 42px;
+    font-size: 16px;
     border: 1px solid rgba(33, 33, 33, 0.2);
-    @include form-modal-box-input (12px, 42px,  16px, 4px) 
+    border-radius: 4px;
   }
   
   .form--modal-box:focus {
@@ -147,11 +127,16 @@
   }
   
   .form-input {
+    width: 100%;
+    height: 40px;
+    margin: 0;
     font: inherit;
+    padding: 12px 20px;
+    padding-left: 42px;
     border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
     position: relative;
     transition: border 250ms $timingfunction;
-    @include form-input (100%, 40px,0, 12px 20px, 42px,4px)
   }
   
   .form-input:focus {
@@ -160,7 +145,7 @@
   }
   
   .form-input:focus + .form--icon {
-    fill: $actcolor;
+    fill: #2196f3;
     transition: fill 250ms $timingfunction;
   }
   
@@ -171,26 +156,33 @@
   }
   
   .form--icon-check {
-    fill:  $maincolorwit;
+    fill: #fff;
   }
   
   .form-texrarea {
     resize: none;
+    padding: 12px 16px;
     font: inherit;
     border: 1px solid rgba(117, 117, 117, 0.5);
+    border-radius: 4px;
+    min-height: 120px;
+    margin-top: 4px;
     transition: border 250ms $timingfunction;
-    @include form-texrarea (12px 16px, 4px, 120px, 4px)
   }
   
   .form-texrarea:focus {
     outline: none;
-    border: 1px solid $actcolor;
+    border: 1px solid #2196f3;
   }
   
   .policy-box {
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 30px;
     display: flex;
     align-items: center;
-    @include policy-box (14px, 30px, 12px, 12px, $seccolor )
+    margin-left: 12px;
+    margin-top: 12px;
   }
   
   .policy-box-name {
@@ -199,42 +191,58 @@
   
   .policy-checkbox {
     position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0px;
+    padding: 0px;
     clip: rect(0 0 0 0);
     overflow: hidden;
     z-index: 100;
-    @include policy-checkbox  (1px,1px, -1px, 0px, 0px)
   }
   
   .policy-box-check {
     position: absolute;
     display: block;
     content: '';
-    border: 1px solid  $maincolorblack;
+    width: 16px;
+    height: 15px;
+    border: 1px solid #212121;
+    border-radius: 2px;
+    margin-right: 10px;
+    top: 12px;
+    left: 12px;
     transition: background-color 250ms $timingfunction;
-    @include policy-box-check  (16px, 15px, 2px, 10px, 12px, 12px)
   }
   
   .policy-checkbox:checked + .policy-box-check {
-    background-color:  $actcolor;
+    background-color: #2196f3;
   
     border: none;
   }
   
   .policy-box a {
-    color:  $actcolor;
+    color: #2196f3;
     text-decoration: underline;
   }
   
   .form-submit-btn {
+    padding: 10px 55px;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    background-color: #2196f3;
+    color: #fff;
     border: none;
     display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    font-weight: 700;
     cursor: pointer;
     transition: box-shadow 250ms $timingfunction, background-color 250ms $timingfunction;
-    @include form-submit-btn (10px 55px, 16px, calc(30 / 16),$actcolor, $maincolorwit,  0 auto,4px, 700)
   }
   
   .form-submit-btn:hover {
-    background-color: $hovercolorbutton;
+    background-color: #188ce8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
   

@@ -187,14 +187,14 @@ header .logo {
 .hero-title {
   text-transform: uppercase;
   text-align: center;
+  max-width: 650px;
   margin: 0 auto;
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 44px;
   line-height: 1.3;
   letter-spacing: 0.06em;
   color: #fff;
-  max-width: 650px;
-  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -212,24 +212,9 @@ header .logo {
   color: #fff;
 }
 
-<<<<<<< Updated upstream
 .hero-button:focus,
 .hero-button:hover {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-.hero__button:focus,
-.hero__button:hover {
->>>>>>> Stashed changes
   background: #188ce8;
-=======
-.hero-button:focus,
-.hero-button:hover {
-  background: #2196f3;
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
-=======
-  background: #2196f3;
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 }
 
 .hide {
@@ -248,7 +233,7 @@ header .logo {
 
 .section-text {
   color: #757575;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-size: 14px;
   line-height: calc(24 / 14);
   margin-top: 10px;
@@ -256,7 +241,7 @@ header .logo {
 
 .section-titles {
   color: #212121;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-weight: bold;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -279,26 +264,26 @@ header .logo {
 }
 
 .btn-item {
+  width: 270px;
+  height: 120px;
+  padding: 0;
+  margin-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 270px;
-  height: 120px;
-  padding: 0;
-  margin-bottom: 30px;
-  border: none;
-  background: #f5f4fa;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: none;
+  background: #f5f4fa;
 }
 
 .section-title {
   color: #212121;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-weight: bold;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -423,6 +408,8 @@ header .logo {
 }
 
 .btn-soc {
+  width: 44px;
+  height: 44px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -432,16 +419,14 @@ header .logo {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 50%;
+  fill: #afb1b8;
   -webkit-transition-property: background-color, fill;
   transition-property: background-color, fill;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  fill: #afb1b8;
   margin-top: 16px;
 }
 
@@ -482,51 +467,23 @@ header .logo {
   width: 170px;
   height: 92px;
 }
-<<<<<<< Updated upstream
 
 .btn-client {
-<<<<<<< HEAD
   width: 170px;
   height: 92px;
-=======
-<<<<<<< HEAD
-.client__customer {
-  border: 1px solid #afb1b8;
-  width: 170px;
-  height: 92px;
-=======
-
-.btn-client {
->>>>>>> Stashed changes
-=======
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-<<<<<<< Updated upstream
-=======
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
->>>>>>> Stashed changes
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid #afb1b8;
-  width: 170px;
-  height: 92px;
   padding: 0;
   border-radius: 4px;
-<<<<<<< HEAD
-<<<<<<< HEAD
   border: 1px solid #afb1b8;
   background: #FFFFFF;
-=======
-=======
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
-  background: #fff;
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   fill: #afb1b8;
 }
 
@@ -593,16 +550,6 @@ header .logo {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
-  text-transform: uppercase;
-  width: 206px;
-  height: 80px;
-  margin-top: 15px;
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   text-transform: uppercase;
   width: 206px;
   height: 80px;
@@ -633,18 +580,6 @@ header .logo {
   -moz-appearance: none;
   appearance: none;
   width: 358px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
-=======
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   border-radius: 4px;
   font-size: 16px;
   line-height: calc(20 / 16);
@@ -717,15 +652,16 @@ header .logo {
 }
 
 .btn {
-  border-style: none;
-  text-align: center;
-  border: 1px solid transparent;
   font-weight: 500;
   font-size: 16px;
   padding: 8px 22px;
+  border-style: none;
   border-radius: 4px;
   color: #212121;
   background-color: #f5f4fa;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 
 .button-item:not(:first-child) {
@@ -786,12 +722,7 @@ header .logo {
 }
 
 .over {
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
-  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
   padding: 63px 24px;
   width: 100%;
   min-height: 100%;
@@ -803,18 +734,12 @@ header .logo {
   line-height: 156%;
   letter-spacing: 0.03em;
   color: #fff;
-<<<<<<< HEAD
-<<<<<<< HEAD
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-=======
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
-=======
->>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   opacity: 0.8;
 }
 
@@ -830,14 +755,14 @@ header .logo {
 
 .backdrop {
   position: fixed;
-  visibility: visible;
-  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 100%;
   height: 100%;
   left: 0px;
   top: 0px;
   background: rgba(0, 0, 0, 0.2);
+  visibility: visible;
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -853,43 +778,43 @@ header .logo {
 
 .modal {
   position: absolute;
+  left: 50%;
+  top: 50%;
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  left: 50%;
-  top: 50%;
   width: 528px;
   height: 581px;
-  background: #fff;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
 .close-modal {
   position: absolute;
-  cursor: pointer;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   top: 8px;
   right: 8px;
+  cursor: pointer;
   padding: 0%;
   width: 30px;
   height: 30px;
-  background: #fff;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
 
 .close-modal-button {
   position: absolute;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   top: 9px;
   right: 9px;
   bottom: 10px;
   left: 10px;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-modal:focus .close-modal-button,
@@ -898,17 +823,17 @@ header .logo {
 }
 
 .form--modal {
+  width: 448px;
+  min-height: 581px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
-  width: 448px;
-  min-height: 581px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -955,10 +880,10 @@ header .logo {
 }
 
 .form--modal-box input {
-  border: 1px solid rgba(33, 33, 33, 0.2);
   padding: 12px;
   padding-left: 42px;
   font-size: 16px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
 
@@ -977,17 +902,17 @@ header .logo {
 }
 
 .form-input {
-  font: inherit;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  position: relative;
-  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 100%;
   height: 40px;
   margin: 0;
+  font: inherit;
   padding: 12px 20px;
   padding-left: 42px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  position: relative;
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus {
@@ -1013,14 +938,14 @@ header .logo {
 
 .form-texrarea {
   resize: none;
+  padding: 12px 16px;
   font: inherit;
   border: 1px solid rgba(117, 117, 117, 0.5);
-  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 12px 16px;
   border-radius: 4px;
   min-height: 120px;
   margin-top: 4px;
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-texrarea:focus {
@@ -1029,15 +954,15 @@ header .logo {
 }
 
 .policy-box {
+  font-size: 14px;
+  color: #757575;
+  margin-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 14px;
-  color: #757575;
-  margin-bottom: 30px;
   margin-left: 12px;
   margin-top: 12px;
 }
@@ -1048,29 +973,29 @@ header .logo {
 
 .policy-checkbox {
   position: absolute;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-  z-index: 100;
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0px;
   padding: 0px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  z-index: 100;
 }
 
 .policy-box-check {
   position: absolute;
   display: block;
   content: "";
-  border: 1px solid #212121;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 16px;
   height: 15px;
+  border: 1px solid #212121;
   border-radius: 2px;
   margin-right: 10px;
   top: 12px;
   left: 12px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .policy-checkbox:checked + .policy-box-check {
@@ -1084,21 +1009,21 @@ header .logo {
 }
 
 .form-submit-btn {
-  border: none;
-  display: block;
-  cursor: pointer;
-  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 10px 55px;
   font-size: 16px;
   line-height: calc(30 / 16);
   background-color: #2196f3;
   color: #fff;
+  border: none;
+  display: block;
   margin: 0 auto;
   border-radius: 4px;
   font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-submit-btn:hover {
