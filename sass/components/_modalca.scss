@@ -46,16 +46,16 @@
     background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    &-button {
-      position: absolute;
-      top: 9px;
-      right: 9px;
-      bottom: 10px;
-      left: 10px;
-      transition: fill 250ms $timingfunction;
-    }
   }
   
+  .close-modal-button {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    bottom: 10px;
+    left: 10px;
+    transition: fill 250ms $timingfunction;
+  }
   .close-modal:focus .close-modal-button,
   .close-modal:hover .close-modal-button {
     fill: $actcolor
@@ -71,16 +71,6 @@
     position: relative;
     padding-top: 40px;
     padding-bottom: 40px;
-    &-box {
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      margin-bottom: 10px;
-      font-size: 12px;
-      line-height: 1.16;
-      letter-spacing: 0.01em;
-      color: $seccolor;
-    }
   }
   
   .form-title {
@@ -92,7 +82,16 @@
     margin-bottom: 12px;
   }
  
-  
+  .form--modal-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: $seccolor;
+  }
   
   .check--modal-box {
     position: relative;

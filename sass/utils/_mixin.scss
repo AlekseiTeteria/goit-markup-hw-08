@@ -1,3 +1,4 @@
+
 %flexbox {
   display: flex;
   justify-content: center;
@@ -13,94 +14,101 @@
     background: $b;
     fill:  $f;
 }
-
-@mixin font ($fw, $fs, $lh, $ls, $col: #212121) { 
+@mixin font ($fw, $fs, $lh, $ls, $col) { 
    font-weight: $fw;
    font-size: $fs;
    line-height: $lh;
    letter-spacing: $ls;
    color: $col;
 }
-@mixin fontsecond ($w, $h, $p, $br, $bkc, $f){
+@mixin fontsecond ($w, $h, $p, $BR, $b, $f){
     width: $w;
     height: $h;
     padding: $p;
-    border-radius: $br;
-    background:   $bkc;
+    border-radius: $BR;
+    background:   $b;
     fill: $f;
 }
-@mixin footer_1 ($col, $fs, $lh, $mt){
+@mixin footer_1 ($col, $FS, $LH, $MT){
    color: $col;
-   font-size: $fs;
-   line-height:$lh;
-   margin-top: $mt;
+   font-size: $FS;
+   line-height:$LH;
+   margin-top: $MT;
 }
-@mixin footer_title ($fs, $lh, $mb){
-  font-size: $fs;
-  line-height: $lh;
-  margin-bottom: $mb;
+@mixin footer_title ($FS, $LH, $MB){
+  font-size: $FS;
+  line-height: $LH;
+  margin-bottom: $MB;
 }
-@mixin footer_soc ($col, $w, $h, $mt, $ml){
+@mixin footer_soc ($col, $w, $h, $MT, $ML){
    width: $w;
    height: $h;
-   margin-top:  $mt;
+   margin-top:  $MT;
    color: $col;
-   margin-left: $ml;
+   margin-left: $ML;
 }
-@mixin ptml ($pt, $ml){
-   padding-top:$pt;
-   margin-left: $ml;
+@mixin ptml ($PT, $ML){
+   padding-top:$PT;
+   margin-left: $ML;
 }
-@mixin futer_input ($col, $w, $br, $fs, $lh, $bg, $pl,$pt, $pb ) {
+@mixin futer_input ($col, $w, $BR, $FS, $LH, $bg, $PL,$PT, $PB ) {
   width: $w;
-  border-radius:  $br;
-  font-size: $fs;
-  line-height: $lh;
+  border-radius:  $BR;
+  font-size: $FS;
+  line-height: $LH;
   color: $col;
   background:  $bg;
-  padding-left: $pl;
-  padding-top: $pt;
-  padding-bottom:  $pb;
+  padding-left: $PL;
+  padding-top: $PT;
+  padding-bottom:  $PB;
 }
-@mixin title_form_footer ($col, $fs, $lh, $mb) {
-   font-size:  $fs;
-   line-height: $lh;
+@mixin title_form_footer ($col, $FS, $LH, $MB) {
+   font-size:  $FS;
+   line-height: $LH;
    color: $col;
-   margin-bottom: $mb;
+   margin-bottom: $MB;
 }
 @mixin form_btn_footer ($col, $FW, $FS, $LH, $LS, $bg, $BR, $PL, $PT, $PB, $PR, $ML){
    font-weight:  $FW;
-   font-size:  $FS;
+   font-size: $FS;
    line-height: $LH;
    letter-spacing: $LS;
    background: $bg;
    border-radius: $BR;
    color: $col;
-   padding-left:$PL;
+   padding-left:  $PL;
    padding-top: $PT;
    padding-bottom: $PB;
    padding-right:  $PR;
    margin-left: $ML;
 }
-
-@mixin links ($col, $FF, $MR, $p, $FW, $LH, $LS) {
-   color: $col;
-   font-family: $FF;
-   margin-right: $MR;
-   padding: $p;
-   font-weight: $FW;
-   line-height:  $LH;
-   letter-spacing: $LS;
+@mixin header ($col, $FF, $MR, $AI, $p, $FW, $LH, $LS){
+   color: $maincolorblack;
+   font-family: 'roboto';
+   margin-right: 50px;
+   align-items: center;
+   padding: 30.5px 0;
+   font-weight: 500;
+   line-height: calc(16 / 14);
+   letter-spacing: 0.02em;  
 }
-
-@mixin hero-title ($fw, $fs, $lh, $ls, $col: #212121, $mw, $mb) { 
-   font-weight: $fw;
-   font-size: $fs;
-   line-height: $lh;
-   letter-spacing: $ls;
+@mixin site-nav-links ($w, $h, $b, $t, $BR, $BC, $o) {
+   width: $w;
+   height: $h;
+   bottom: $b;
+   transform: $t;
+   border-radius:  $BR;
+   background-color: $BC;
+   opacity:  $o;  
+}
+@mixin hero-title ($FW, $FS, $LH, $LS, $col, $MW, $MB) { 
+   font-weight: $FW;
+   font-size: $FS;
+   line-height: $LH;
+   letter-spacing: $LS;
    color: $col;
-   max-width: $mw;
-   margin-bottom: $mb;
+   max-width: $MW;
+   margin-bottom: $MB;
 }
 @mixin backdrop ($w, $h, $l, $t, $bg){
     width: $w;
