@@ -1,20 +1,7 @@
 .portfolio {
-    @extend %flexbox;
+    display: flex;
+    flex-wrap: wrap;
     margin: -15px;
-    &-title {
-      color: $maincolorblack;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: calc(36 / 18);
-      letter-spacing: 0.06em;
-    }
-    &-text {
-      margin-top: 4px;
-      color: $seccolor;
-      font-size: 16px;
-      line-height: calc(30 / 16);
-      letter-spacing: 0.03em;
-    }
   }
   .portfolio-image:hover,
   .portfolio-image:focus {
@@ -24,7 +11,20 @@
   .portfolio-image {
     margin: 15px;
   }
-  
+  .portfolio-title {
+    color: $maincolorblack;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+  }
+  .portfolio-text {
+    margin-top: 4px;
+    color: $seccolor;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+  }
   .portfolio-name {
     padding: 20px 24px;
     border-left: 1px solid #eeeeee;
