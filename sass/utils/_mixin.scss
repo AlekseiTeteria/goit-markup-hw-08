@@ -6,13 +6,19 @@
    color: $col;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 @mixin fontsecond ($fw, $fs, $lh, $ls){
    font-weight: bold;
    font-size: 16px;
    line-height: calc(30 / 16);
    letter-spacing: 0.06em;
 }
+<<<<<<< HEAD
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
+=======
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 @mixin fontsecond ($w, $h, $p, $br, $bkc, $f){
     width: $w;
@@ -34,6 +40,7 @@
   margin-bottom: $mb;
 }
 @mixin footer_soc ($col, $w, $h, $mt, $ml){
+<<<<<<< HEAD
 <<<<<<< HEAD
    width: $w;
    height: $h;
@@ -80,6 +87,8 @@
 =======
 
 =======
+=======
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 width: 206px;
 height: 80px;
 margin-top: 15px;
@@ -125,8 +134,11 @@ margin-left: $ml;
    padding-right: 62px;
    margin-left: 12px;
 }
+<<<<<<< HEAD
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 >>>>>>> Stashed changes
+=======
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 @mixin hero-title ($fw, $fs, $lh, $ls, $col: #212121, $mw, $mb) { 
    font-weight: $fw;
    font-size: $fs;
@@ -154,6 +166,7 @@ margin-left: $ml;
 }
 @mixin close-modal ($t,$r,$p,$w,$h,$br,$bg) {
 <<<<<<< HEAD
+<<<<<<< HEAD
    top: $t;
    right: $r;
    padding: $p;
@@ -162,6 +175,8 @@ margin-left: $ml;
    background:  $bg;
    border-radius: $br;
 =======
+=======
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
    top: 8px;
    right: 8px;
    padding: 0%;
@@ -169,6 +184,9 @@ margin-left: $ml;
    height: 30px;
    background:  $maincolorwit;
    border-radius: 50%;
+<<<<<<< HEAD
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
+=======
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
    
 }
@@ -297,6 +315,7 @@ margin-left: $ml;
 }
 @mixin btn-item ($w, $h, $p, $mb, $b, $bgc, $ai) {
 <<<<<<< HEAD
+<<<<<<< HEAD
    width: $w;
    height: $h;
    padding:$p;
@@ -304,12 +323,17 @@ margin-left: $ml;
    border: $b;
    background: $bgc;
 =======
+=======
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
    width: 270px;
    height: 120px;
    padding: 0;
    margin-bottom: 30px;
    border: none;
    background: $backgraundcolor;
+<<<<<<< HEAD
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
+=======
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
    align-items:  $ai;
 }
@@ -363,6 +387,11 @@ margin-left: $ml;
    bottom: $b;
    left:$l;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   display: flex;
+   justify-content: center;
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 =======
    display: flex;
    justify-content: center;

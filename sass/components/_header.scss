@@ -31,6 +31,9 @@ header .logo {
 }
 .logo-color-black {
     color: $MainColorBlack;
+<<<<<<< HEAD
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
+=======
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
     display: inline-block;
     margin-right: 5px;
@@ -78,8 +81,13 @@ display: flex;
 .contacts li a:focus
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: $actcolor;
   fill: $actcolor;
+=======
+    color: $ActColor;
+    fill: $ActColor;
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 =======
     color: $ActColor;
     fill: $ActColor;
@@ -92,6 +100,7 @@ display: flex;
 .site-nav .links:hover,
 .site-nav .links:focus,
 .site-nav .links:hover::after {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 .site-nav .site-nav__links:hover,
@@ -119,6 +128,8 @@ opacity: 0;
 .site-nav .links:hover,
 .site-nav .links:focus,
 .site-nav .links:hover::after {
+=======
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   color: $ActColor;
   opacity: 1;
 }
@@ -136,6 +147,9 @@ opacity: 0;
 .contacts li a {
     margin: 0 0 0 50px;
     color: $SecColor;
+<<<<<<< HEAD
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
+=======
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 }
 .svg {

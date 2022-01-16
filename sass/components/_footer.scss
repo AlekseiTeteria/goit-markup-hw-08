@@ -5,10 +5,17 @@
 <<<<<<< Updated upstream
 }
 .footer-contact {
-  color: $maincolorwit;
+  @include footer_1 ( $maincolorwit, 14px, calc(27 / 14), 20px)
+=======
+  background: $back_craund_color;
+  padding: 60px 0px;
+}
+.footer-contact {
+  color: $main_color_wit;
   font-size: 14px;
   line-height: calc(27 / 14);
   margin-top: 20px;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   &-contact {
@@ -33,13 +40,20 @@
 >>>>>>> 9ae18f1284132e2341096c96ab8b54771a4fb22f
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 >>>>>>> Stashed changes
+=======
+>>>>>>> 9ae18f1284132e2341096c96ab8b54771a4fb22f
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 }
 .address {
     font-style: normal;
 }
 .logo-footer {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color:  $maincolorwit;
+=======
+  color: $main_color_wit;
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 =======
   color: $main_color_wit;
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
@@ -68,14 +82,20 @@
   flex-direction: column;
   text-transform: uppercase;
 <<<<<<< HEAD
+<<<<<<< HEAD
   @include footer_soc ($maincolorwit, 206px,  80px, 15px,  70px)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   @include footer_soc ($maincolorwit, 206px, 80px, 15px,70px)
 =======
   color: $main_color_wit;
   margin-left: 70px;
 >>>>>>> 9ae18f1284132e2341096c96ab8b54771a4fb22f
+<<<<<<< HEAD
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
+=======
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 }
 .connect {
@@ -86,8 +106,12 @@
  .form-footer {
   position: relative;
 <<<<<<< HEAD
+<<<<<<< HEAD
   padding-top: 16px;
   margin-left: 93px;
+=======
+  @include ptml (16px, 93px)
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 =======
   @include ptml (16px, 93px)
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
@@ -106,7 +130,11 @@
 .footer-input:hover,
 .footer-input:focus {
 <<<<<<< HEAD
+<<<<<<< HEAD
   outline: 1px solid  $actcolor;
+=======
+  outline: 1px solid $act-color;
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 =======
   outline: 1px solid $act-color;
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
@@ -119,7 +147,11 @@
 .title-form-footer {
   text-transform: uppercase;
 <<<<<<< HEAD
+<<<<<<< HEAD
   @include title_form_footer (#fff, 14px,  1.17, 30px) 
+=======
+  @include title_form_footer (#fff, 14px, 1.17, 15px)
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 =======
   @include title_form_footer (#fff, 14px, 1.17, 15px)
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
@@ -127,6 +159,7 @@
 .form-btn-footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   @include  form_btn_footer (#fff, bold, 16px, calc(30 / 16), 0.06em,  $actcolor,  4px, 29px, 10px, 10px, 62px, 12px)
 =======
@@ -137,6 +170,9 @@
   @include  form_btn_footer (#fff, bold, 16px, calc(30 / 16), 0.06em,  $actcolor,  4px, 29px, 10px, 10px, 62px, 12px)
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 >>>>>>> Stashed changes
+=======
+  @include  form_btn_footer (#fff, bold, 16px, calc(30 / 16), 0.06em,  $actcolor,  4px, 29px, 10px, 10px, 62px, 12px)
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 }
 .icon-subscribe {
   position: absolute;
@@ -147,7 +183,11 @@
 }
 .cocntact-cond {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color:  $actcolor;
+=======
+  color: $act-color;
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 =======
   color: $act-color;
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331

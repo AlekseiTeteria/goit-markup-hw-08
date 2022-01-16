@@ -215,6 +215,7 @@ header .logo {
 <<<<<<< Updated upstream
 .hero-button:focus,
 .hero-button:hover {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 .hero__button:focus,
@@ -224,6 +225,9 @@ header .logo {
 =======
 .hero-button:focus,
 .hero-button:hover {
+  background: #2196f3;
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
+=======
   background: #2196f3;
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 }
@@ -481,6 +485,7 @@ header .logo {
 <<<<<<< Updated upstream
 
 .btn-client {
+<<<<<<< HEAD
   width: 170px;
   height: 92px;
 =======
@@ -493,6 +498,8 @@ header .logo {
 
 .btn-client {
 >>>>>>> Stashed changes
+=======
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -512,9 +519,12 @@ header .logo {
   padding: 0;
   border-radius: 4px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 1px solid #afb1b8;
   background: #FFFFFF;
 =======
+=======
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   background: #fff;
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   fill: #afb1b8;
@@ -584,7 +594,10 @@ header .logo {
       -ms-flex-direction: column;
           flex-direction: column;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   text-transform: uppercase;
   width: 206px;
   height: 80px;
@@ -621,6 +634,12 @@ header .logo {
   appearance: none;
   width: 358px;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 =======
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -785,12 +804,15 @@ header .logo {
   letter-spacing: 0.03em;
   color: #fff;
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+=======
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 =======
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   opacity: 0.8;

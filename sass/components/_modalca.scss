@@ -29,17 +29,18 @@
     cursor: pointer;
     border: 1px solid rgba(0, 0, 0, 0.1);
 <<<<<<< HEAD
+<<<<<<< HEAD
     border-radius: 50%;
+=======
+    @include close-modal (8px,8px,0%, 30px, 30px,50%,$maincolorwit)
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   }
   
 <<<<<<< Updated upstream
   .close-modal-button {
     position: absolute;
-    top: 9px;
-    right: 9px;
-    bottom: 10px;
-    left: 10px;
     transition: fill 250ms $timingfunction;
+    @include close-modal-button (9px,9px,10px,10px)
   }
 =======
 =======
@@ -63,6 +64,7 @@
     align-items: center;
     position: relative;
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-top: 40px;
     padding-bottom: 40px;
 <<<<<<< Updated upstream
@@ -81,6 +83,9 @@
     @include form--modal (448px, 581px, auto, auto, 40px, 40px)
 >>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
 >>>>>>> Stashed changes
+=======
+    @include form--modal (448px, 581px, auto, auto, 40px, 40px)
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   }
   
   .form-title {
@@ -97,12 +102,16 @@
     display: flex;
     flex-direction: column;
     position: relative;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     margin-bottom: 10px;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
     color: $seccolor;
+=======
+    @include form--modal-box (10px,  12px,  1.16, 0.01em, $seccolor)
+>>>>>>> 35d7d6cae60b3803733149224e2b792d0342a331
   }
 =======
     @include form--modal-box (10px,  12px,  1.16, 0.01em, $seccolor)
