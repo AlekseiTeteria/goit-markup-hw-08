@@ -1,6 +1,7 @@
 %flexbox {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 @mixin customer ($w, $h, $AI, $p, $BR, $b, $f) {
     width: $w;

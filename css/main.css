@@ -87,13 +87,15 @@ address,
           flex-direction: column;
 }
 
-.client__customer, .clients {
+.portfolio, .client__customer, .clients {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 /*header*/
@@ -666,11 +668,6 @@ header .logo {
 }
 
 .portfolio {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   margin: -15px;
 }
 .portfolio-title {

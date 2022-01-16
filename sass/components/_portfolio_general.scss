@@ -1,6 +1,5 @@
 .portfolio {
-    display: flex;
-    flex-wrap: wrap;
+    @extend %flexbox;
     margin: -15px;
     &-title {
       color: $maincolorblack;
