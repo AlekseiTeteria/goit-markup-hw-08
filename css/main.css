@@ -638,7 +638,7 @@ header .logo {
   text-decoration: underline;
 }
 
-.button-list {
+.buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -648,7 +648,7 @@ header .logo {
   margin-bottom: 50px;
 }
 
-.btn {
+.button__btn {
   font-weight: 500;
   font-size: 16px;
   padding: 8px 22px;
@@ -661,12 +661,12 @@ header .logo {
   border-radius: 4px;
 }
 
-.button-item:not(:first-child) {
+.button__item:not(:first-child) {
   margin-left: 8px;
 }
 
-.btn:hover,
-.btn:focus {
+.button__btn:hover,
+.button__btn:focus {
   color: #fff;
   background-color: #2196f3;
 }

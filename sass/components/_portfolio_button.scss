@@ -1,9 +1,9 @@
-.button-list {
+.buttons {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
   }
-  .btn {
+  .button__btn {
     font-weight: 500;
     font-size: 16px;
     padding: 8px 22px;
@@ -15,11 +15,11 @@
     border: 1px solid transparent;
     border-radius: 4px;
   }
-  .button-item:not(:first-child) {
+  .button__item:not(:first-child) {
     margin-left: 8px;
   }
-  .btn:hover,
-  .btn:focus {
+  .button__btn:hover,
+  .button__btn:focus {
     color: $maincolorwit;
     background-color: $actcolor;
   }
