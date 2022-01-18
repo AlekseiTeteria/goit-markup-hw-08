@@ -1,4 +1,14 @@
-.clients {
+.section__title {
+  color: #212121;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.client {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -6,19 +16,19 @@
   justify-content: center;
   align-content: center;
 }
-.clients > .client {
+.client > .client__title {
   margin-right: 30px;
   text-align: center;
 }
-.clients .client:last-child {
+.client .client__title:last-child {
   margin: 0;
 }
-.client {
+.client__title {
   flex-basis: calc(100% / 6)-30px;
   width: 170px;
   height: 92px;
 }
-.btn-client {
+.client__link {
   width: 170px;
   height: 92px;
   display: flex;
@@ -30,8 +40,8 @@
   background: #FFFFFF;
   fill: #afb1b8;
 }
-.btn-client:focus,
-.btn-client:hover {
+.client__link:focus,
+.client__link:hover {
   fill: #2196f3;
   border: 1px solid #2196f3;
 }
