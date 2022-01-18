@@ -245,22 +245,22 @@ header .logo {
   text-transform: uppercase;
 }
 
-.future-list {
+.future {
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.future-list .item + .item {
+.future .future__item + .future__item {
   margin-left: 30px;
 }
 
-.future-list .item {
+.future .future__item {
   width: 270px;
 }
 
-.btn-item {
+.future__btn {
   width: 270px;
   height: 120px;
   padding: 0;
