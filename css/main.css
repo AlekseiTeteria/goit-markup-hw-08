@@ -87,6 +87,15 @@ address,
           flex-direction: column;
 }
 
+.social__link, .buttons, .client__link, .client, .doings__item, .future__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 /*header*/
 header .logo {
   margin-right: 93px;
@@ -265,12 +274,6 @@ header .logo {
   height: 120px;
   padding: 0;
   margin-bottom: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -311,12 +314,6 @@ header .logo {
 }
 
 .doings__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   position: absolute;
   font-family: "roboto";
   font-style: Bold;
@@ -397,12 +394,6 @@ header .logo {
   padding: 0;
   margin: 0;
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
 }
@@ -426,12 +417,6 @@ header .logo {
 .client__link {
   width: 170px;
   height: 92px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -619,12 +604,6 @@ header .logo {
 }
 
 .buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin-bottom: 50px;
 }
 
@@ -640,15 +619,13 @@ header .logo {
   border: 1px solid transparent;
   border-radius: 4px;
 }
+.button__btn:hover, .button__btn:focus {
+  color: #fff;
+  background-color: #2196f3;
+}
 
 .button__item:not(:first-child) {
   margin-left: 8px;
-}
-
-.button__btn:hover,
-.button__btn:focus {
-  color: #fff;
-  background-color: #2196f3;
 }
 
 .carts {
@@ -660,14 +637,12 @@ header .logo {
   margin: -15px;
 }
 
-.cart-portfolio:hover,
-.cart-portfolio:focus {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 .cart-portfolio {
   margin: 15px;
+}
+.cart-portfolio:hover, .cart-portfolio:focus {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .cart__title {
@@ -1033,12 +1008,6 @@ header .logo {
 .social__link {
   width: 44px;
   height: 44px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

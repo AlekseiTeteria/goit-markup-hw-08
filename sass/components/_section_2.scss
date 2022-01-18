@@ -22,7 +22,6 @@
 
 }
 .doings__item {
-    display: flex;
-    justify-content: center;
+    @extend %flexbox;
     @include doing__item (absolute,'roboto',Bold,14px, 16px,100%, 70px, 0, 0, center, $maincolorwit, rgba(47, 48, 58, 0.8), uppercase)
   }

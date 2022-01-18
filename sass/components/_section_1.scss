@@ -27,8 +27,7 @@
     height: 120px;
     padding: 0;
     margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
+    @extend %flexbox;
     align-items: center;
     border: none;
     background: $backgraundcolor;
