@@ -1,11 +1,5 @@
 .hide {
-    visibility: hidden;
-    margin: 0;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    opacity: 0;
-    margin-top: -1px;
+    @include hide (hidden, 0, 1px, 1px, hidden, 0, -1px)
 }
     
 
@@ -13,19 +7,10 @@
     text-align: center;
 }
 .section-text {
-    color: $seccolor;
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: calc(24 / 14);
-    margin-top: 10px;
+    @include section-text ($seccolor,  "Roboto", 14px,  calc(24 / 14), 10px) 
 }
 .section-titles {
-    color:  $maincolorblack;
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    text-transform: uppercase;
+    @include section-titles ($maincolorblack, "Roboto", bold, 14px, calc(16 / 14), uppercase)
 }
 .future {
     margin: 0 auto;

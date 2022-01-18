@@ -1,7 +1,6 @@
 %flexbox {
    display: flex;
    justify-content: center;
-   flex-wrap: wrap;
  }
  @mixin customer ($w, $h, $AI, $p, $BR, $b, $f) {
      width: $w;
@@ -299,7 +298,7 @@
     padding-top: $pt;
     padding-bottom:  $pb;  
  }
- @mixin item-doing ($p, $ff,$fst, $fsz, $lh, $w, $h, $b, $l, $ai, $col, $bg, $tt) {
+ @mixin doing__item ($p, $ff,$fst, $fsz, $lh, $w, $h, $b, $l, $ai, $col, $bg, $tt) {
     position: $p;
     font-family: $ff;
     font-style: $fst;
@@ -342,7 +341,7 @@
     line-height: $lh;
     text-align: $ta;  
  }
- @mixin btn-soc ($w, $h, $br, $f, $mt) {
+ @mixin social_btn ($w, $h, $br, $f, $mt) {
     width: $w;
     height: $h;
     border-radius: $br;

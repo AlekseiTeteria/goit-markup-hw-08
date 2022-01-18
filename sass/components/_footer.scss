@@ -72,7 +72,7 @@
 
 .title-form-footer {
   text-transform: uppercase;
-  @include title_form_footer (#fff, 14px,  1.17, 30px) 
+  @include title_form_footer (#fff, 14px,  1.17, 20px) 
 }
 .form-btn-footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -82,11 +82,26 @@
 .icon-subscribe {
   position: absolute;
   right: 20px;
-  bottom: 30px;
+  bottom: 40px;
   fill: #fff;
   cursor: pointer;
 }
 .cocntact-cond {
   color:  $actcolor;
   text-decoration: underline;
+}
+.footer-social__title {
+  font-size: 14px;
+  line-height: 1.17;
+  margin-bottom: 20px;
+}
+.footer-social {
+  width: 206px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  text-transform: uppercase;
+  color: $maincolorwit;
+  margin-left: 70px;
 }
