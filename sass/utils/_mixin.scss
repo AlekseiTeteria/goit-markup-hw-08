@@ -223,21 +223,21 @@
     color:$col;
     background-color: $bcol;
  }
- @mixin portfolio-title ($col, $fw, $fs, $lh, $ls) {
+ @mixin cart__title ($col, $fw, $fs, $lh, $ls) {
     color: $col;
     font-weight: $fw;
     font-size:  $fs;
     line-height: $lh;
     letter-spacing: $ls;
  }
- @mixin portfolio-text ($mt, $col, $fs, $lh, $ls) {
+ @mixin cart__text ($mt, $col, $fs, $lh, $ls) {
     margin-top: $mt;
     color: $col;
     font-size: $fs;
     line-height:  $lh;
     letter-spacing: $ls;
  }
- @mixin over ($p, $w, $mh, $l, $t, $bcol, $fw, $fs, $lh, $ls, $col, $op) {
+ @mixin cart__overley ($p, $w, $mh, $l, $t, $bcol, $fw, $fs, $lh, $ls, $col, $op) {
     padding: $p;
     width: $w;
     min-height: $mh;
