@@ -2,6 +2,32 @@
    display: flex;
    justify-content: center;
  }
+@mixin Hero_container ($w, $ML, $MR, $PT, $PB, $TA) {
+   width: $w;
+   margin-left:  $ML;
+   margin-right:  $MR;
+   padding-top: $PT;
+   padding-bottom: $PB;
+   text-align: $TA;
+}
+@mixin hero__button ($BR, $FS, $LH, $p, $c, $b){
+   color: $c;
+   background:   $b;
+   border-radius: $BR;
+   font-size: $FS;
+   line-height:  $LH;
+   padding: $p;
+}
+@mixin hero__title ( $MB, $FW, $LS, $FS, $LH, $c) {
+   color: $c;
+   display: block;
+   margin-bottom: $MB;
+   font-weight: $FW;
+   letter-spacing: $LS;
+   font-size:  $FS;
+   line-height:  $LH;
+}
+
  @mixin customer ($w, $h, $AI, $p, $BR, $b, $f) {
      width: $w;
      height: $h;
@@ -92,15 +118,6 @@
     letter-spacing: $LS;
  }
  
- @mixin hero-title ($fw, $fs, $lh, $ls, $col: #212121, $mw, $mb) { 
-    font-weight: $fw;
-    font-size: $fs;
-    line-height: $lh;
-    letter-spacing: $ls;
-    color: $col;
-    max-width: $mw;
-    margin-bottom: $mb;
- }
  @mixin backdrop ($w, $h, $l, $t, $bg){
      width: $w;
      height: $h;
